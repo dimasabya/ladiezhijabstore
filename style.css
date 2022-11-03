@@ -1,0 +1,272 @@
+*, html, body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Helvetica;
+
+}
+
+header {
+    background-color: rgb(3, 39, 41);
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 6px;
+}
+
+.logo {
+    margin-right: auto;
+    display: flex;
+    gap: 20px;
+}
+
+.logo-title {
+    margin-right: auto;
+    cursor: pointer;
+}
+
+nav ul {
+    display: flex;
+    padding: 20px;
+    gap: 2px;
+}
+
+li {
+    display: flex;
+    gap: 10px;
+    list-style-type: none;
+    padding: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.btn-cta {
+    margin-right: 10px;
+    border: none;
+    font-size: 20px;
+    color: #eaeaea;
+    background-color: #ff6aff;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 6px 12px;
+}
+
+.semi-head {
+    height: 5vh;
+    background-color: gold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.btn-brn {
+    height: 4vh;
+    width: 20px;
+    margin-right: 10px;
+    background-color: wheat;
+
+}
+
+.brand {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 500vh;
+    max-height: auto;
+    margin-top: 10px;
+
+}
+
+.brand-img {
+    width: 50%;
+    max-width: 500px;
+    padding: 10px;
+}
+
+.anim-run {
+    background-color: #1a3a61;
+    height: auto;
+    margin-top: 10px;
+}
+
+.deskripsi {
+    background-color: black;
+    color: #eaeaea;
+    height: auto;
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.card {
+
+    background-color: white;
+    height: auto;
+    width: 100%;
+    /* min-height: 100vh; */
+    background-color: white;
+    padding: 20px 0;
+    margin-top: 20px;
+    background-image: url('assets/logo.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: auto;
+    opacity: 0.9;
+
+}
+
+.cards {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid rgb(8, 8, 8);
+}
+
+.card-pd {
+    width: 35%;
+    padding: 8px;
+    margin-right: auto;
+}
+
+.card-p {
+    margin-right: 500px;
+    text-align: center;
+    font-size: 3em;
+    color: blue;
+}
+
+footer {
+    height: auto;
+    width: 100%;
+    min-height: 20%;
+    margin-top: 5px;
+    text-align: center;
+    font-size: 2em;
+    background-color: rgb(3, 39, 41);
+}
+
+.container {
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 70px 0;
+    background-color: greenyellow;
+    margin-top: 8px;
+    margin-bottom: 5px;
+}
+
+.container-b {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 50px;
+    color: white;
+}
+.container-c{
+    width: 25%;
+    padding: 24px;
+    text-align: center;
+    background-color: #1a3a61;
+    box-shadow: 2px 5px 5px 2px red;
+    
+}
+.icon {
+    width: 55px;
+    height: auto;
+    margin: 5px;
+    padding: 4px;
+}
+
+@media (min-width: 250px) and (max-width: 470px) {
+    .container-b{
+        flex-direction: column;
+        gap: 6px;
+        font-size: 10px;
+        height: auto;
+        padding: 2px;
+    }
+    .container{
+        width: 100%;
+    }
+    .container-c{
+        width:30%;
+    }
+    .icon{
+        width: 45px;
+       
+    }
+    .u-carausel{
+        width: 100%;
+    }
+    .carousel-A{
+        width: 100%;
+        background-color: #b5f4be;
+    }
+    .down{
+        width: 40%;
+        /* background-color: #1a3a61; */
+    }
+    .down-a{
+        width: auto;
+        padding: 10px;
+    }
+    
+   
+    
+    .card-p {
+        font-size: 1em;
+        margin-right: 170px;
+    }
+
+    .card {
+        background-position: bottom;
+        background-size: 1000px;
+        background-color: white;
+    }
+
+    nav {
+        bottom: 0;
+        z-index: 9;
+        position: fixed;
+        background-color: none;
+        font-size: 1.2em;
+        height: 9vh;
+        width: 100%;
+        border: 1px solid rgb(230, 8, 8);
+        background-color: rgb(3, 39, 41);
+        padding: 0 10px;
+        margin-top: 200px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    a {
+        color: blue;
+    }
+
+    footer {
+        margin-bottom: 70px;
+        height: auto;
+    }
+
+    .btn-cta {
+        font-size: 0.4em;
+    }
+
+    .deskripsi-p {
+        font-size: 0.8em;
+    }
+
+}
